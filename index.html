@@ -15,28 +15,38 @@
       margin: auto;
       padding: 20px;
     }
-    h1 {
-      font-size: 24px; /* Size for main headings */
-      margin-bottom: 20px; /* Spacing below the heading */
+    .header {
+      display: flex; /* Align image and header in a row */
+      align-items: center; /* Vertically center the content */
+      gap: 20px; /* Space between the image and the text */
     }
-    p {
-      font-size: 16px; /* Size for paragraphs */
-      line-height: 1.6; /* Line height for readability */
+    .header img {
+      width: 150px; /* Increase the image width for larger icon */
+      height: auto; /* Keep the aspect ratio */
+    }
+    .description {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #d3d3d3; /* Light gray color for the description */
     }
     hr {
       border: 0;
-      height: 1px;
-      background: #333; /* Color of the line */
+      height: 2px;
+      background: white; /* Color of the line */
       margin: 20px 0; /* Spacing above and below the line */
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Title</h1>
+    <div class="header">
+      <img src="https://raw.githubusercontent.com/5166-gamez/home/main/home.png" alt="Logo"> <!-- Add your image here -->
+      <div>
+        <h1>Empty Page</h1>
+        <p class="description">There's nothing in this page, wait for stuff to be added!</p>
+      </div>
+    </div>
     <hr> <!-- Line divider -->
-    <p>This page is empty.</p>
-    <p>Please wait, content is being added as we speak!.</p>
   </div>
 </body>
 </html>
