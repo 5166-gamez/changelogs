@@ -35,6 +35,22 @@
       background: white; /* Color of the line */
       margin: 20px 0; /* Spacing above and below the line */
     }
+    /* Scrollable container */
+    .scroll-container {
+      width: 100%;
+      height: 300px; /* Set height for scrollable container */
+      overflow-y: scroll; /* Enable vertical scrolling */
+      background-color: #2b2b2b; /* Slightly lighter background for the scrollable section */
+      padding: 15px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .scroll-content {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #d3d3d3; /* Light gray color for the text */
+    }
   </style>
 </head>
 <body>
@@ -47,6 +63,18 @@
       </div>
     </div>
     <hr> <!-- Line divider -->
+
+    <!-- Scrollable text section -->
+    <div class="scroll-container">
+      <div class="scroll-content">
+        <p>Welcome to the scrollable content section. Here you can display long text, news updates, or any other information that needs to be contained within a limited space.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.</p>
+        <p>Vestibulum ut eros non enim commodo hendrerit. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        <p>Finibus Bonorum et Malorum, written by Cicero in 45 BC, is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum comes from a line in section 1.10.32.</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
